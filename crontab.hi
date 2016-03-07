@@ -1,0 +1,5 @@
+# Everyday start with a morning call
+0 8 * * * /home/ubuntu/cron/GoodMorningZei.sh
+
+# She is such a fool that needs somebody to remind her to have lunch everyday :(
+0 12 * * * /home/ubuntu/cron/HaveLunchZei.sh
