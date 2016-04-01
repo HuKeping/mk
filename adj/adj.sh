@@ -2,7 +2,7 @@
 
 # Let's pick up one number in (0,length]
 LINES=$(cat $1 | wc -l)
-RAND=$(date +%s)
+RAND=$(date +%s%N)
 NUM=$(($RAND % $LINES))
 
 # Wanna be 0? No way :)
