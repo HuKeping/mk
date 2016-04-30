@@ -10,3 +10,5 @@ cool
 stupid-fat
 beautiful
 warm
+angry
+fantastic
